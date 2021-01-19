@@ -1,9 +1,9 @@
 (self["webpackChunkdefaultcss"] = self["webpackChunkdefaultcss"] || []).push([["app"],{
 
-/***/ "./packages/index.js":
-/*!***************************!*\
-  !*** ./packages/index.js ***!
-  \***************************/
+/***/ "./client.js":
+/*!*******************!*\
+  !*** ./client.js ***!
+  \*******************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -11,7 +11,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
 /* harmony import */ var prismjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prismjs */ "./node_modules/prismjs/prism.js");
-/* harmony import */ var _dist_styles_web_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../dist/styles/web.css */ "./dist/styles/web.css");
+/* harmony import */ var prismjs_themes_prism_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prismjs/themes/prism.css */ "./node_modules/prismjs/themes/prism.css");
+/* harmony import */ var _dist_styles_web_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./dist/styles/web.css */ "./dist/styles/web.css");
+
 
 
 
@@ -57,7 +59,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "html {\n    padding: 100px;\n}\n\n.next-to-each-other {\n  width: 1200px;\n  justify-content: space-between;\n  display: flex;\n  margin: 0 auto 50px;\n}\n\n.next-to-each-other aside {\n  width: 380px;\n}\n\npre[class*=\"language-\"] {\n  padding: 10px 0;\n}\n\npre[class*=\"language-\"]>code {\n  border: 0;\n  background: transparent;\n  box-shadow: none;\n  font-size: 14px;\n  font-family: \"Monaco\";\n}\n", "",{"version":3,"sources":["webpack://./dist/styles/web.css"],"names":[],"mappings":"AAAA;IACI,cAAc;AAClB;;AAEA;EACE,aAAa;EACb,8BAA8B;EAC9B,aAAa;EACb,mBAAmB;AACrB;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,eAAe;AACjB;;AAEA;EACE,SAAS;EACT,uBAAuB;EACvB,gBAAgB;EAChB,eAAe;EACf,qBAAqB;AACvB","sourcesContent":["html {\n    padding: 100px;\n}\n\n.next-to-each-other {\n  width: 1200px;\n  justify-content: space-between;\n  display: flex;\n  margin: 0 auto 50px;\n}\n\n.next-to-each-other aside {\n  width: 380px;\n}\n\npre[class*=\"language-\"] {\n  padding: 10px 0;\n}\n\npre[class*=\"language-\"]>code {\n  border: 0;\n  background: transparent;\n  box-shadow: none;\n  font-size: 14px;\n  font-family: \"Monaco\";\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "html {\n    padding: 100px;\n}\n\n.next-to-each-other {\n  width: 1200px;\n  justify-content: space-between;\n  display: flex;\n  margin: 0 auto 50px;\n}\n\n.next-to-each-other aside {\n  width: 380px;\n}\n\npre[class*=language-]>code {\n  background: transparent;\n  box-shadow: none;\n  border: 0;\n  padding: 0;\n  font-size: 13px;\n  font-weight: 700;\n}\n\npre[class*=\"language-\"] {\n  padding: 6px 15px;\n}\n", "",{"version":3,"sources":["webpack://./dist/styles/web.css"],"names":[],"mappings":"AAAA;IACI,cAAc;AAClB;;AAEA;EACE,aAAa;EACb,8BAA8B;EAC9B,aAAa;EACb,mBAAmB;AACrB;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,uBAAuB;EACvB,gBAAgB;EAChB,SAAS;EACT,UAAU;EACV,eAAe;EACf,gBAAgB;AAClB;;AAEA;EACE,iBAAiB;AACnB","sourcesContent":["html {\n    padding: 100px;\n}\n\n.next-to-each-other {\n  width: 1200px;\n  justify-content: space-between;\n  display: flex;\n  margin: 0 auto 50px;\n}\n\n.next-to-each-other aside {\n  width: 380px;\n}\n\npre[class*=language-]>code {\n  background: transparent;\n  box-shadow: none;\n  border: 0;\n  padding: 0;\n  font-size: 13px;\n  font-weight: 700;\n}\n\npre[class*=\"language-\"] {\n  padding: 6px 15px;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -95,5 +97,5 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /***/ })
 
 },
-0,[["./packages/index.js","runtime","vendor"]]]);
+0,[["./client.js","runtime","vendor"]]]);
 //# sourceMappingURL=app.js.map

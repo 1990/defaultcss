@@ -2,8 +2,9 @@ import React from 'react'
 import { render } from "react-dom"
 
 import 'prismjs'
+import 'prismjs/themes/prism.css'
 
-import "../dist/styles/web.css"
+import "./dist/styles/web.css"
 
 const code = `<ul>
     <li>1st paragraph</li>

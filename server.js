@@ -9,7 +9,7 @@ app.use("/dist", express.static(path.join(path.resolve(), "./dist")))
 app.use(favicon(path.join(path.resolve(), "./dist/favicon.ico")))
 
 // Redirect all non-matching paths to index
-app.get("*", (req, res) => {
+app.get("/", (req, res) => {
   res.setHeader("Content-type", "text/html")
   res.sendFile(path.resolve(path.resolve(), "./dist", "index.html"))
 })

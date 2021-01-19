@@ -11,7 +11,7 @@ module.exports = {
     }
   },
   entry: {
-    app: [ "./packages/index.js" ]
+    app: [ "./client.js" ]
   },
   mode: "development", // production
   target: "web",
