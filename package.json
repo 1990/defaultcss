@@ -1,0 +1,11 @@
+{
+  "name": "bearicorn",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "sass styles/mini.sass:styles/mini.css",
+    "precommit": "npm build && npm test"
+  },
+  "devDependencies": {
+    "sass": "1.32.4"
+  }
+}
