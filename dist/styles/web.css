@@ -13,8 +13,14 @@ html {
   width: 380px;
 }
 
-h1 {
-  font-size: 18px;
-  font-weight: 900;
-  color: #0b122b;
+pre[class*="language-"] {
+  padding: 10px 0;
+}
+
+pre[class*="language-"]>code {
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  font-size: 14px;
+  font-family: "Monaco";
 }
