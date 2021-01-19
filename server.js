@@ -11,7 +11,7 @@ app.use(favicon(path.join(path.resolve(), "./dist/favicon.ico")))
 // Redirect all non-matching paths to index
 app.get("*", (req, res) => {
   res.setHeader("Content-type", "text/html")
-  res.sendFile(path.resolve(path.resolve(), "./static", "index.html"))
+  res.sendFile(path.resolve(path.resolve(), "./dist", "index.html"))
 })
 
 const server = app.listen(process.env.PORT || 3001)
