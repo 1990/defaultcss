@@ -2,10 +2,28 @@
   "name": "bearicorn",
   "version": "1.0.0",
   "scripts": {
-    "start": "sass styles/mini.sass:styles/mini.css",
+    "build": "webpack --progress --color --config webpack.cjs",
+    "watch": "webpack --progress --color --watch --config webpack.cjs",
+    "start": "python -m SimpleHTTPServer 3003",
     "precommit": "npm build && npm test"
   },
   "devDependencies": {
-    "sass": "1.32.4"
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-react": "^7.12.10",
+    "@babel/preset-stage-3": "^7.8.3",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-prismjs": "^2.0.1",
+    "eslint": "^7.18.0",
+    "eslint-plugin-react": "^7.22.0",
+    "nodemon": "^2.0.7",
+    "prismjs": "^1.23.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "webpack": "^5.15.0",
+    "webpack-cli": "^4.4.0"
   }
 }

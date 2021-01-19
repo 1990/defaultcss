@@ -2,3 +2,19 @@ html {
     padding: 100px;
 }
 
+.next-to-each-other {
+  width: 1200px;
+  justify-content: space-between;
+  display: flex;
+  margin: 0 auto 50px;
+}
+
+.next-to-each-other aside {
+  width: 380px;
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: 900;
+  color: #0b122b;
+}

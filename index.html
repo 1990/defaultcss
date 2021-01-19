@@ -1,6 +1,7 @@
 <!doctype html><html lang="en" class="
   mini-fonts
   mini-rounded-corners
+  mini-forms
 "><head>
 
   <meta charset="utf-8" />
@@ -12,13 +13,22 @@
 
   <meta name="description" content="Default is a css library" />
 
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/prism/1.8.4/themes/prism.min.css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/prism/1.8.4/themes/prism-coy.min.css" />
+
   <link href="styles/fonts.css" rel="stylesheet" />
   <link href="styles/normalize.css" rel="stylesheet" />
-  <link href="styles/mini.css" rel="stylesheet" />
   <link href="styles/web.css" rel="stylesheet" />
+  <link rel="stylesheet/less" type="text/css" href="styles/mini.less" />
 
 </head><body>
 
-  <input type="text" />
+  <div id="app-root"></div>
+
+  <script src="//cdn.jsdelivr.net/npm/less@3.13" ></script>
+
+  <script src="./bundles/runtime.js"></script>
+  <script src="./bundles/vendor.js"></script>
+  <script src="./bundles/app.js"></script>
 
 </body></html>

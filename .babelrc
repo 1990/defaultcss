@@ -1,0 +1,25 @@
+{
+  "presets": [
+    ["@babel/preset-react", {
+      "modules": false ,
+      "targets": {
+        "browsers": ["last 2 versions", "safari >= 7"]
+      }
+    }]
+  ],
+  "env": {
+    "test": {
+      "plugins": [
+        "@babel/plugin-transform-modules-commonjs"
+      ]
+    }
+  },
+  "plugins": [
+    ["prismjs", {
+      "languages": ["javascript", "css", "markup"],
+      "plugins": ["line-numbers", "unescaped-markup"],
+      // "theme": "twilight",
+      "css": true
+    }]
+  ]
+}
